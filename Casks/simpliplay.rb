@@ -10,7 +10,7 @@ cask "simpliplay" do
 
   name "SimpliPlay"
   desc "Cross-platform no-frills media player with streaming support"
-  homepage "https://simpliplay.netlify.app"
+  homepage "https://simpliplay.netlify.app/"
 
   app "SimpliPlay.app"
 end
