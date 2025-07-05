@@ -5,9 +5,11 @@ cask "simpliplay" do
   sha256 arm:   "855e58125e71c9c9ad21b683e7925b8667586c9644e6361b5f261acf7ad9a050",
          intel: "70a55cb7a226e486aa139cba0705593d190eb5371f66611c2c6dec1ccb183d71"
 
-  url "https://github.com/A-Star100/simpliplay-desktop/releases/download/release-1.0.7.2/SimpliPlay-#{arch}-darwin.dmg"
+  url "https://github.com/A-Star100/simpliplay-desktop/releases/download/release-1.0.7.2/SimpliPlay-#{arch}-darwin.dmg",
+      verified: "github.com/A-Star100/simpliplay-desktop/"
 
   name "SimpliPlay"
+  desc "Cross-platform no-frills media player with streaming support"
   homepage "https://simpliplay.netlify.app"
 
   app "SimpliPlay.app"
